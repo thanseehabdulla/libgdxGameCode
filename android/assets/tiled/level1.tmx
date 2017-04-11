@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="300" height="18" tilewidth="32" tileheight="32" nextobjectid="470">
+ <tileset firstgid="1" name="BackLand" tilewidth="32" tileheight="32" tilecount="96">
+  <image source="BackLand.png" trans="ff00ff" width="1024" height="120"/>
+ </tileset>
+ <tileset firstgid="97" name="building" tilewidth="32" tileheight="32" tilecount="1326">
+  <image source="building.png" trans="ff00ff" width="1642" height="840"/>
+ </tileset>
+ <tileset firstgid="1423" name="student" tilewidth="32" tileheight="32" tilecount="221">
+  <image source="student.png" trans="ff00ff" width="550" height="445"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="-1"/>
+  </terraintypes>
+  <tile id="0" terrain=",,0,0"/>
+  <tile id="1" terrain=",,0,0"/>
+  <tile id="2" terrain="0,0,0,"/>
+  <tile id="3" terrain="0,0,,"/>
+  <tile id="4" terrain="0,0,,"/>
+  <tile id="94" terrain=",,,0"/>
+  <tile id="95" terrain=",,0,"/>
+  <tile id="111" terrain="0,0,0,"/>
+  <tile id="112" terrain="0,,0,"/>
+  <tile id="116" terrain=",0,0,0"/>
+  <tile id="117" terrain="0,,,"/>
+  <tile id="119" terrain=",,0,"/>
+  <tile id="127" terrain=",0,,0"/>
+  <tile id="128" terrain="0,0,0,0"/>
+  <tile id="129" terrain="0,0,0,0"/>
+  <tile id="130" terrain="0,,0,0"/>
+  <tile id="131" terrain="0,0,0,0"/>
+  <tile id="132" terrain=",0,0,0"/>
+  <tile id="133" terrain="0,,0,0"/>
+  <tile id="136" terrain=",0,,"/>
+  <tile id="137" terrain=",,,0"/>
+  <tile id="144" terrain=",0,,0"/>
+  <tile id="145" terrain="0,0,0,0"/>
+  <tile id="146" terrain="0,0,0,0"/>
+  <tile id="147" terrain="0,0,0,0"/>
+  <tile id="148" terrain="0,0,0,0"/>
+  <tile id="149" terrain="0,0,0,0"/>
+  <tile id="150" terrain="0,0,0,"/>
+  <tile id="161" terrain=",0,,0"/>
+  <tile id="162" terrain="0,0,0,0"/>
+  <tile id="163" terrain="0,0,0,0"/>
+  <tile id="164" terrain="0,0,0,0"/>
+  <tile id="165" terrain="0,0,0,0"/>
+  <tile id="166" terrain="0,0,0,0"/>
+  <tile id="178" terrain=",0,,0"/>
+  <tile id="179" terrain="0,0,0,0"/>
+  <tile id="180" terrain="0,0,0,0"/>
+  <tile id="181" terrain="0,0,0,0"/>
+  <tile id="182" terrain="0,0,0,"/>
+  <tile id="183" terrain="0,0,0,0"/>
+  <tile id="184" terrain="0,0,,0"/>
+  <tile id="195" terrain=",0,,0"/>
+  <tile id="196" terrain="0,0,0,0"/>
+  <tile id="197" terrain="0,0,0,0"/>
+  <tile id="198" terrain=",,0,0"/>
+  <tile id="199" terrain="0,0,0,0"/>
+  <tile id="200" terrain="0,0,0,0"/>
+  <tile id="201" terrain="0,0,0,"/>
+  <tile id="212" terrain=",0,,0"/>
+  <tile id="213" terrain="0,0,0,0"/>
+  <tile id="214" terrain="0,0,,"/>
+  <tile id="215" terrain="0,0,,"/>
+  <tile id="216" terrain="0,0,,"/>
+  <tile id="217" terrain="0,0,,"/>
+ </tileset>
+ <tileset firstgid="1644" name="shoot" tilewidth="32" tileheight="32" tilecount="16">
+  <image source="shoot.png" trans="ff00ff" width="150" height="150"/>
+ </tileset>
+ <tileset firstgid="1660" name="sandbag" tilewidth="32" tileheight="32" tilecount="36">
+  <image source="sandbag.png" trans="ff00ff" width="200" height="221"/>
+ </tileset>
+ <tileset firstgid="1696" name="inyatslider-bricks" tilewidth="32" tileheight="32" tilecount="48">
+  <image source="inyatslider-bricks.png" trans="ff00ff" width="400" height="159"/>
+ </tileset>
+ <tileset firstgid="1744" name="box" tilewidth="32" tileheight="32" tilecount="36">
+  <image source="box.png" trans="ff00ff" width="200" height="200"/>
+ </tileset>
+ <tileset firstgid="1780" name="Pawya_hole" tilewidth="32" tileheight="32" tilecount="45">
+  <image source="Pawya_hole.png" trans="ff00ff" width="300" height="168"/>
+ </tileset>
+ <layer name="Road" width="300" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1LdSA0EQAFHhPQgjcuGN8CYXCO/t/38KnVy+wc7VLdWvqrOruakJttWSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJP0HUzRNMzRLczRPC9SmRRqiYRqhURqjcZqgycQZS7RMK9Sh1eC5Je1cwh2idkz5Juf/6tw/982aPq+6SeR7skt7tE89OqBDOqJjOqEurdE6bdAmbdE27STOOKUzOqcLugyeW9LOJdwhaseUb3L+r879c9+s6fOqm0S+Jw/0SE/0TC/0Sm/0Th/Upyu6pgHd0C3d0X3ijE/6om/6od/guSXtXMIdonZM+Sbn/+rcP/fNmj6vuknke/IHcaeZHA==
+  </data>
+ </layer>
+ <layer name="buildings" width="300" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt0Pf7lgMbwOGvpjZtTUmL9l4aGqKiSXuppNLQHtKiHUpRJO0dEu1JQ1sZFdpp0t7rPR19/4jnud/7Oo7zuH69PtfkODExn/E5U/iCqXzJNKYzg5nMYjZzmMs85rOAhSxiMV/xNd+whG9Zynd8zzKWs4KVrGI1a1jLOtazgY38wI/8N+Ps8XzMBCbyCZ8yiclR1hPEpqD1hE2R07STXexmDz+zl338wq/8xu/s5wAH+YM/+YtDHOYIRznGcU5wkr85xWnOcJZznOcf/uUCF7nEZa5wlWtc50bsnzfZm9nCVn5iG9vZEYU9QWwKWk/YFDlNMXFjYh4hDnGJR3wSkJBHSURikpCUZCQnBY/xOClJRWrSkJZ0pOcJMpCRTGQmC1l5kmw8RXaeJgc5yUVu8vBM3Ic/vunmW9zmDne5x30eRGFPEJuC1hM2RU5TEYpSjOKUoCSlKE0ZyvIc5ShPBSryPJWoTBWq8gLVeJGXqE4NavIyr1CL2tShLvWoz6u8RgMa0ojGNKFp7J+ftfOSj/wUoCCFKByFPUFsClpP2BQ5TW15g3a8SXs60JG36ERnutCVt+lGd3rQk170pg996Ud/3mEA7zKQQQxmCEN5j/cZxnBGMJJRjGYMY/mAD2P/3MxuTgta0orXaU2bKOwJYlPQesKmyGmaxGQ+43Om8AVT+ZJpTGcGM5nFbOYwl3nMZwELWcRivuJrvmEJ37KU7/ieZSxnBStZxWrWsJZ1rGcDG/kh9s8f2eMYz8dMYCKf8GkU9gSxKWg9YVPkNO1gJ7vYzR5+Zi/7+IVf+Y3f2c8BDvIHf/IXhzjMEY5yjOOc4CR/c4rTnOEs5zjPP/zLBS5yictc4SrXuB775x/tTWxmC1v5iW1sj8KeIDYFrSdsipymB//dHy8m5hHiEJd4xCcBCXmURCQmCUlJRnJS8BiPk5JUpCYNaUlHep4gAxnJRGaykJUnycZTZOdpcpCTXOQmT7yHP77h3pvc4jZ3uMs97kdhTxCbgtYTNkVOU2GKUJRiFKcEJSlFacpQlucoR3kqUJHnqURlqlCVF6jGi7xEdWpQk5d5hVrUpg51qUd9XuU1GtCQRjSmSeyfn7GfJS/5yE8BClIoCnuC2BS0nrApcpra0JY3aMebtKcDHXmLTnSmC115m250pwc96UVv+tCXfvTnHQbwLgMZxGCGMJT3eJ9hDGcEIxnFaMYwlg9i/9zUbkZzWtCSVrxO6yjsCWJT0HrCpshp+pRJTOYzPmcKXzCVL5nGdGYwk1nMZg5zmcd8FrCQRSzmK77mG5bwLUv5ju9ZxnJWsJJVrGYNa1nHejawMfbPH9ofMY7xfMwEJvJJFPYEsSloPWFT5DRtZwc72cVu9vAze9nHL/zKb/zOfg5wkD/4k784xGGOcJRjHOcEJ/mbU5zmDGc5x3n+4V8ucJFLXOYKV7kW++cf7B/ZxGa2sJWf2BaFPUFsClpP2BQ5Tfd58F9D/JiYR4hDXOIRnwQk5FESkZgkJCUZyUnBYzxOSlKRmjSkJR3peYIMZCQTmclCVp4kG0+RnafJQU5ykTv+wx9fd+sNbnKL29zhLveisCeITUHrCZsip6kQhSlCUYpRnBKUpBSlKUNZnqMc5alARZ6nEpWpQlVeoBov8hLVqUFNXuYValGbOtSlHvV5lddoQEMa0Tj2z3nsZ3iWvOQjPwUoGIU9QWwKWk/YFDlNrWlDW96gHW/Sng505C060ZkudOVtutGdHvSkF73pQ1/60Z93GMC7DGQQgxnCUN7jfYYxnBGMZBSjGcPY2D83sZvSjOa0oCWteD0Ke4LYFLSesClymsIJJ5xwwgknnHDCCSeccML5/5z/AQiUs3I=
+  </data>
+ </layer>
+ <objectgroup name="fixed">
+  <object id="436" x="4" y="-8" width="484" height="524"/>
+  <object id="439" x="968" y="388" width="170" height="146"/>
+  <object id="440" x="1416" y="400" width="204" height="174"/>
+  <object id="441" x="1854" y="410" width="204" height="164"/>
+  <object id="442" x="2315.33" y="392.667" width="200" height="180"/>
+  <object id="443" x="3138" y="410" width="198" height="142"/>
+  <object id="444" x="3562" y="351.42" width="1132" height="232.58"/>
+  <object id="446" x="4914.67" y="264.667" width="706" height="268.667"/>
+  <object id="447" x="5906" y="384" width="160" height="324"/>
+  <object id="448" x="6068" y="262" width="150" height="512"/>
+  <object id="449" x="6226" y="154" width="158" height="782"/>
+  <object id="450" x="6396" y="284" width="182" height="418"/>
+  <object id="451" x="6588" y="394" width="156" height="332"/>
+  <object id="452" x="6270" y="306"/>
+  <object id="453" x="7766" y="392" width="160" height="274"/>
+  <object id="454" x="8632" y="408" width="158" height="328"/>
+  <object id="456" x="488" y="513.333" width="489.333" height="69.3333"/>
+  <object id="457" x="1141.33" y="508" width="273.333" height="68"/>
+  <object id="458" x="1618.67" y="512" width="230.667" height="60"/>
+  <object id="459" x="2061.33" y="510.667" width="244" height="60"/>
+  <object id="460" x="2510.67" y="512" width="628" height="61.3333"/>
+  <object id="461" x="6702.67" y="506.667"/>
+  <object id="462" x="6504" y="353.333"/>
+  <object id="463" x="6466.67" y="490.667"/>
+  <object id="464" x="6753.33" y="508" width="998.667" height="66.6667"/>
+  <object id="466" x="8181.33" y="509.333" width="436" height="62.6667"/>
+  <object id="467" x="9048" y="506.667" width="549.333" height="64"/>
+  <object id="469" x="5864" y="390" width="106" height="124"/>
+ </objectgroup>
+ <objectgroup name="entity">
+  <object id="33" name="mario" x="511" y="175.667" width="64" height="64"/>
+  <object id="35" name="mystery" x="3830.67" y="170" width="64" height="64">
+   <properties>
+    <property name="coins" value="5"/>
+   </properties>
+  </object>
+  <object id="38" name="coin" x="3202.67" y="244.667" width="64" height="64"/>
+  <object id="40" name="coin" x="1032.67" y="224.333" width="64" height="64"/>
+  <object id="47" name="coin" x="2145" y="297" width="64" height="64"/>
+  <object id="50" name="coin" x="1961.33" y="297.333" width="64" height="64"/>
+  <object id="51" name="coin" x="2732.33" y="325.333" width="64" height="64"/>
+  <object id="53" name="coin" x="3006.67" y="332.333" width="64" height="64"/>
+  <object id="54" name="coin" x="4264.06" y="205.303" width="64" height="64"/>
+  <object id="55" name="coin" x="4732.67" y="159" width="64" height="64"/>
+  <object id="57" name="coin" x="4959" y="92.3333" width="64" height="64"/>
+  <object id="58" name="coin" x="6565.67" y="108" width="64" height="64"/>
+  <object id="59" name="coin" x="6652" y="26" width="64" height="64"/>
+  <object id="60" name="coin" x="6965.67" y="223.667" width="64" height="64"/>
+  <object id="61" name="coin" x="6749.33" y="137.333" width="64" height="64"/>
+  <object id="62" name="coin" x="6097" y="78.6667" width="64" height="64"/>
+  <object id="63" name="coin" x="7359.33" y="278.667" width="64" height="64"/>
+  <object id="64" name="coin" x="7534.67" y="287.333" width="64" height="64"/>
+  <object id="65" name="coin" x="7600.67" y="407" width="64" height="64"/>
+  <object id="66" name="coin" x="8382" y="337" width="64" height="64"/>
+  <object id="67" name="coin" x="8538" y="341.333" width="64" height="64"/>
+  <object id="68" name="coin" x="8615.67" y="226.333" width="64" height="64"/>
+  <object id="69" name="enemy1" x="1530.33" y="64.3333" width="64" height="64"/>
+  <object id="79" name="enemy1" x="5066.67" y="44" width="64" height="64"/>
+  <object id="80" name="enemy3" x="5201.33" y="173.333" width="64" height="64"/>
+  <object id="81" name="enemy2" x="5233.33" y="14.6667" width="64" height="64"/>
+  <object id="83" name="enemy3" x="8226.67" y="146.667" width="64" height="64"/>
+  <object id="105" name="enemy1" x="958.333" y="306.667" width="64" height="64"/>
+  <object id="112" name="enemy1" x="1988" y="121" width="64" height="64"/>
+  <object id="116" name="enemy1" x="3250" y="70.6667" width="64" height="64"/>
+  <object id="117" name="enemy1" x="3031" y="172" width="64" height="64"/>
+  <object id="118" name="enemy1" x="3587" y="702" width="64" height="64"/>
+  <object id="119" name="enemy1" x="4487" y="259" width="64" height="64"/>
+  <object id="120" name="enemy1" x="4324.6" y="25.8783" width="64" height="64"/>
+  <object id="125" name="enemy1" x="5568.67" y="23.6667" width="64" height="64"/>
+  <object id="126" name="enemy6" x="5783" y="-2.33333" width="64" height="64"/>
+  <object id="127" name="enemy5" x="5453" y="-3.33333" width="64" height="64"/>
+  <object id="128" name="enemy6" x="5480" y="169.333" width="64" height="64"/>
+  <object id="129" name="enemy1" x="6542.67" y="3.66667" width="64" height="64"/>
+  <object id="131" name="enemy3" x="6157" y="-15" width="64" height="64"/>
+  <object id="132" name="enemy4" x="6352" y="50.6667" width="64" height="64"/>
+  <object id="135" name="enemy1" x="7105" y="365" width="64" height="64"/>
+  <object id="136" name="enemy1" x="7218" y="366" width="64" height="64"/>
+  <object id="137" name="enemy1" x="7367.33" y="396" width="64" height="64"/>
+  <object id="141" name="enemy2" x="8583" y="48" width="64" height="64"/>
+  <object id="142" name="enemy6" x="8420" y="74" width="64" height="64"/>
+  <object id="143" name="enemy1" x="9001" y="62" width="64" height="64"/>
+  <object id="144" name="enemy1" x="8380" y="449" width="64" height="64"/>
+  <object id="158" name="coin" x="4570.29" y="125.919" width="95.0761" height="95.0761"/>
+  <object id="161" name="coin" x="4384.33" y="243.394" width="64" height="64"/>
+  <object id="162" name="coin" x="5043.67" y="172" width="64" height="64"/>
+  <object id="163" name="coin" x="5736" y="277" width="64" height="64"/>
+  <object id="164" name="coin" x="5120.33" y="108.667" width="64" height="64"/>
+  <object id="165" name="coin" x="5324.33" y="179.333" width="64" height="64"/>
+  <object id="166" name="coin" x="5451.33" y="83.6667" width="64" height="64"/>
+  <object id="167" name="coin" x="5575.33" y="127.667" width="64" height="64"/>
+  <object id="168" name="coin" x="5969" y="112.333" width="64" height="64"/>
+  <object id="169" name="coin" x="6634.33" y="249.333" width="64" height="64"/>
+  <object id="170" name="coin" x="6863.67" y="357.333" width="64" height="64"/>
+  <object id="171" name="coin" x="5961.33" y="267.333" width="64" height="64"/>
+  <object id="172" name="coin" x="6273.67" y="31" width="64" height="64"/>
+  <object id="173" name="coin" x="6447" y="81.3333" width="64" height="64"/>
+  <object id="174" name="coin" x="7804" y="275" width="64" height="64"/>
+  <object id="175" name="coin" x="8034.33" y="322.333" width="64" height="64"/>
+  <object id="176" name="coin" x="8163.67" y="359.333" width="64" height="64"/>
+  <object id="177" name="coin" x="8256" y="385" width="64" height="64"/>
+  <object id="191" name="bullet_stock" x="2385.67" y="318.333" width="64" height="64">
+   <properties>
+    <property name="amount" value="20"/>
+   </properties>
+  </object>
+  <object id="199" name="enemy1" x="1464" y="326" width="64" height="64"/>
+  <object id="200" name="enemy1" x="1712" y="60" width="64" height="64"/>
+  <object id="209" name="enemy1" x="2649.33" y="196" width="64" height="64"/>
+  <object id="210" name="enemy1" x="2891.33" y="411.333" width="64" height="64"/>
+  <object id="212" name="enemy1" x="2858.67" y="195.333" width="64" height="64"/>
+  <object id="217" name="coin" x="3635.33" y="226" width="64" height="64"/>
+  <object id="218" name="coin" x="3992.67" y="214" width="64" height="64"/>
+  <object id="219" name="coin" x="4120.67" y="210" width="64" height="64"/>
+  <object id="236" name="flag" x="18589.2" y="435.273" width="64" height="384"/>
+  <object id="264" name="enemy6" x="9280.15" y="488.864" width="64" height="64"/>
+  <object id="265" name="enemy1" x="9154.15" y="44.5307" width="64" height="64"/>
+  <object id="266" name="enemy3" x="9156.15" y="496.864" width="64" height="64"/>
+  <object id="267" name="enemy6" x="9091.15" y="311.864" width="64" height="64"/>
+  <object id="269" name="enemy6" x="8986.21" y="291.894" width="64" height="64"/>
+  <object id="270" name="enemy1" x="8732.21" y="232.894" width="64" height="64"/>
+  <object id="271" name="enemy3" x="8862.21" y="299.894" width="64" height="64"/>
+  <object id="272" name="enemy6" x="8797.21" y="114.894" width="64" height="64"/>
+  <object id="273" name="flag" x="9246.21" y="82" width="64" height="430"/>
+  <object id="274" name="enemy6" x="10277.1" y="488.864" width="64" height="64"/>
+  <object id="275" name="enemy1" x="10023.1" y="429.864" width="64" height="64"/>
+  <object id="276" name="enemy3" x="10153.1" y="496.864" width="64" height="64"/>
+  <object id="277" name="enemy6" x="10088.1" y="311.864" width="64" height="64"/>
+  <object id="278" name="enemy2" x="10537.1" y="496.864" width="64" height="64"/>
+  <object id="279" name="enemy6" x="10352.9" y="697.955" width="64" height="64"/>
+  <object id="280" name="enemy1" x="10098.9" y="638.955" width="64" height="64"/>
+  <object id="281" name="enemy3" x="10228.9" y="705.955" width="64" height="64"/>
+  <object id="282" name="enemy6" x="10163.9" y="520.955" width="64" height="64"/>
+  <object id="283" name="enemy2" x="10612.9" y="705.955" width="64" height="64"/>
+  <object id="284" name="enemy6" x="10616.5" y="73.7121" width="64" height="64"/>
+  <object id="285" name="enemy1" x="10362.5" y="14.7121" width="64" height="64"/>
+  <object id="286" name="enemy3" x="10492.5" y="81.7121" width="64" height="64"/>
+  <object id="287" name="enemy6" x="10427.5" y="-103.288" width="64" height="64"/>
+  <object id="288" name="enemy2" x="10876.5" y="81.7121" width="64" height="64"/>
+  <object id="289" name="enemy6" x="11322.6" y="458.561" width="64" height="64"/>
+  <object id="290" name="enemy1" x="11068.6" y="399.561" width="64" height="64"/>
+  <object id="291" name="enemy3" x="11198.6" y="466.561" width="64" height="64"/>
+  <object id="292" name="enemy6" x="11133.6" y="281.561" width="64" height="64"/>
+  <object id="293" name="enemy2" x="11582.6" y="466.561" width="64" height="64"/>
+  <object id="294" name="enemy6" x="10958.9" y="528.258" width="64" height="64"/>
+  <object id="295" name="enemy1" x="10704.9" y="469.258" width="64" height="64"/>
+  <object id="296" name="enemy3" x="10834.9" y="536.258" width="64" height="64"/>
+  <object id="297" name="enemy6" x="10769.9" y="351.258" width="64" height="64"/>
+  <object id="298" name="enemy2" x="11218.9" y="536.258" width="64" height="64"/>
+  <object id="299" name="enemy6" x="12307.4" y="476.742" width="64" height="64"/>
+  <object id="300" name="enemy1" x="12053.4" y="417.742" width="64" height="64"/>
+  <object id="301" name="enemy3" x="12183.4" y="484.742" width="64" height="64"/>
+  <object id="302" name="enemy6" x="12118.4" y="299.742" width="64" height="64"/>
+  <object id="304" name="enemy6" x="12558.9" y="113.106" width="64" height="64"/>
+  <object id="305" name="enemy1" x="12304.9" y="54.1061" width="64" height="64"/>
+  <object id="306" name="enemy3" x="12434.9" y="121.106" width="64" height="64"/>
+  <object id="307" name="enemy6" x="12369.9" y="-63.8939" width="64" height="64"/>
+  <object id="308" name="enemy2" x="12818.9" y="121.106" width="64" height="64"/>
+  <object id="309" name="enemy6" x="12016.5" y="685.833" width="64" height="64"/>
+  <object id="310" name="enemy1" x="11762.5" y="626.833" width="64" height="64"/>
+  <object id="311" name="enemy3" x="11892.5" y="693.833" width="64" height="64"/>
+  <object id="312" name="enemy6" x="11827.5" y="508.833" width="64" height="64"/>
+  <object id="314" name="enemy6" x="13380.2" y="322.197" width="64" height="64"/>
+  <object id="315" name="enemy1" x="13126.2" y="263.197" width="64" height="64"/>
+  <object id="316" name="enemy3" x="13256.2" y="330.197" width="64" height="64"/>
+  <object id="317" name="enemy6" x="13191.2" y="145.197" width="64" height="64"/>
+  <object id="318" name="enemy2" x="13640.2" y="330.197" width="64" height="64"/>
+  <object id="319" name="enemy6" x="13589.2" y="704.015" width="64" height="64"/>
+  <object id="322" name="enemy6" x="13400.2" y="527.015" width="64" height="64"/>
+  <object id="323" name="enemy2" x="13849.2" y="712.015" width="64" height="64"/>
+  <object id="324" name="enemy6" x="14458.9" y="428.258" width="64" height="64"/>
+  <object id="325" name="enemy1" x="14204.9" y="369.258" width="64" height="64"/>
+  <object id="326" name="enemy3" x="14334.9" y="436.258" width="64" height="64"/>
+  <object id="327" name="enemy6" x="14269.9" y="251.258" width="64" height="64"/>
+  <object id="329" name="enemy6" x="13952.9" y="443.409" width="64" height="64"/>
+  <object id="330" name="enemy1" x="13698.9" y="384.409" width="64" height="64"/>
+  <object id="331" name="enemy3" x="13828.9" y="451.409" width="64" height="64"/>
+  <object id="332" name="enemy6" x="13763.9" y="266.409" width="64" height="64"/>
+  <object id="333" name="enemy2" x="14212.9" y="451.409" width="64" height="64"/>
+  <object id="334" name="enemy6" x="15207.4" y="458.561" width="64" height="64"/>
+  <object id="335" name="enemy1" x="14953.4" y="399.561" width="64" height="64"/>
+  <object id="336" name="enemy3" x="15083.4" y="466.561" width="64" height="64"/>
+  <object id="337" name="enemy6" x="15018.4" y="281.561" width="64" height="64"/>
+  <object id="338" name="enemy2" x="15467.4" y="466.561" width="64" height="64"/>
+  <object id="339" name="enemy6" x="15980.2" y="591.894" width="64" height="64"/>
+  <object id="340" name="enemy1" x="15726.2" y="532.894" width="64" height="64"/>
+  <object id="341" name="enemy3" x="15856.2" y="599.894" width="64" height="64"/>
+  <object id="342" name="enemy6" x="15791.2" y="414.894" width="64" height="64"/>
+  <object id="344" name="enemy6" x="16574.1" y="304.015" width="64" height="64"/>
+  <object id="345" name="enemy1" x="16320.1" y="245.015" width="64" height="64"/>
+  <object id="346" name="enemy3" x="16450.1" y="312.015" width="64" height="64"/>
+  <object id="347" name="enemy6" x="16385.1" y="127.015" width="64" height="64"/>
+  <object id="348" name="enemy2" x="16834.1" y="312.015" width="64" height="64"/>
+  <object id="349" name="enemy6" x="17258.9" y="431.288" width="64" height="64"/>
+  <object id="350" name="enemy1" x="17004.9" y="372.288" width="64" height="64"/>
+  <object id="351" name="enemy3" x="17134.9" y="439.288" width="64" height="64"/>
+  <object id="352" name="enemy6" x="17069.9" y="254.288" width="64" height="64"/>
+  <object id="353" name="enemy2" x="17518.9" y="439.288" width="64" height="64"/>
+  <object id="354" name="enemy6" x="17865" y="497.955" width="64" height="64"/>
+  <object id="355" name="enemy1" x="17611" y="438.955" width="64" height="64"/>
+  <object id="356" name="enemy3" x="17741" y="505.955" width="64" height="64"/>
+  <object id="357" name="enemy6" x="17676" y="320.955" width="64" height="64"/>
+  <object id="358" name="enemy2" x="18125" y="505.955" width="64" height="64"/>
+  <object id="359" name="enemy6" x="18443.8" y="231.288" width="64" height="64"/>
+  <object id="360" name="enemy1" x="18189.8" y="172.288" width="64" height="64"/>
+  <object id="361" name="enemy3" x="18319.8" y="239.288" width="64" height="64"/>
+  <object id="362" name="enemy6" x="18254.8" y="54.2879" width="64" height="64"/>
+  <object id="363" name="enemy2" x="18703.8" y="239.288" width="64" height="64"/>
+  <object id="364" name="enemy6" x="18407.4" y="667.652" width="64" height="64"/>
+  <object id="365" name="enemy1" x="18153.4" y="608.652" width="64" height="64"/>
+  <object id="366" name="enemy3" x="18283.4" y="675.652" width="64" height="64"/>
+  <object id="367" name="enemy6" x="18218.4" y="490.652" width="64" height="64"/>
+  <object id="368" name="enemy2" x="18667.4" y="675.652" width="64" height="64"/>
+  <object id="389" name="coin" x="9856" y="628" width="64" height="64"/>
+  <object id="390" name="coin" x="10228" y="644" width="64" height="64"/>
+  <object id="391" name="coin" x="10464" y="620" width="64" height="64"/>
+  <object id="392" name="coin" x="10712" y="612" width="64" height="64"/>
+  <object id="393" name="coin" x="10924" y="520" width="64" height="64"/>
+  <object id="394" name="coin" x="11112" y="524" width="64" height="64"/>
+  <object id="395" name="coin" x="11336" y="516" width="64" height="64"/>
+  <object id="396" name="coin" x="11508" y="516" width="64" height="64"/>
+  <object id="397" name="coin" x="11960" y="660" width="64" height="64"/>
+  <object id="398" name="coin" x="12196" y="572" width="64" height="64"/>
+  <object id="399" name="coin" x="12372" y="504" width="64" height="64"/>
+  <object id="400" name="coin" x="12496" y="420" width="64" height="64"/>
+  <object id="401" name="coin" x="12692" y="312" width="64" height="64"/>
+  <object id="402" name="coin" x="13164" y="348" width="64" height="64"/>
+  <object id="403" name="coin" x="13336" y="480" width="64" height="64"/>
+  <object id="404" name="coin" x="13476" y="600" width="64" height="64"/>
+  <object id="405" name="coin" x="13648" y="692" width="64" height="64"/>
+  <object id="406" name="coin" x="13856" y="576" width="64" height="64"/>
+  <object id="407" name="coin" x="14020" y="592" width="64" height="64"/>
+  <object id="408" name="coin" x="14216" y="600" width="64" height="64"/>
+  <object id="409" name="coin" x="14432" y="608" width="64" height="64"/>
+  <object id="410" name="coin" x="14640" y="608" width="64" height="64"/>
+  <object id="411" name="coin" x="14852" y="504" width="64" height="64"/>
+  <object id="412" name="coin" x="15040" y="500" width="64" height="64"/>
+  <object id="413" name="coin" x="15236" y="524" width="64" height="64"/>
+  <object id="414" name="coin" x="15388" y="520" width="64" height="64"/>
+  <object id="415" name="coin" x="15528" y="504" width="64" height="64"/>
+  <object id="416" name="coin" x="15896" y="724" width="64" height="64"/>
+  <object id="417" name="coin" x="16048" y="632" width="64" height="64"/>
+  <object id="418" name="coin" x="16160" y="548" width="64" height="64"/>
+  <object id="419" name="coin" x="16292" y="472" width="64" height="64"/>
+  <object id="420" name="coin" x="16424" y="416" width="64" height="64"/>
+  <object id="421" name="coin" x="16568" y="368" width="64" height="64"/>
+  <object id="422" name="coin" x="16732" y="300" width="64" height="64"/>
+  <object id="423" name="coin" x="17132" y="324" width="64" height="64"/>
+  <object id="424" name="coin" x="17268" y="432" width="64" height="64"/>
+  <object id="425" name="coin" x="17368" y="532" width="64" height="64"/>
+  <object id="426" name="coin" x="17504" y="672" width="64" height="64"/>
+  <object id="427" name="coin" x="17696" y="688" width="64" height="64"/>
+  <object id="428" name="coin" x="17872" y="604" width="64" height="64"/>
+  <object id="429" name="coin" x="18028" y="568" width="64" height="64"/>
+  <object id="430" name="bomb_stock" x="869.333" y="445.333" width="64" height="64">
+   <properties>
+    <property name="amount" value="20"/>
+   </properties>
+  </object>
+  <object id="431" name="bun_stock" x="1253.67" y="439" width="64" height="64">
+   <properties>
+    <property name="amount" value="20"/>
+   </properties>
+  </object>
+  <object id="432" name="timer" x="5321" y="75" width="64" height="64">
+   <properties>
+    <property name="amount" value="20"/>
+   </properties>
+  </object>
+  <object id="433" name="health" x="5731" y="125" width="64" height="64">
+   <properties>
+    <property name="amount" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="brick"/>
+ <layer name="box3" width="300" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt2EeKxDAQhWGvfP+jTc459aSe1BeYtxRGJWxTCu7+P3gbWVBCmKLsrgMAAAAAAAAAAAAAAAB2117fdfvKgXKoHCnHfXzd2gsAJZyo35wqZ8q5cqFc9vF1a28O9EYAQ1fqAdfKjXKr3Cn3fXzd2ptDyd4I7LrUfODxDeY1f9SoOeZMVm9k1gL8peYDj28wr/mjRs2Q1QMflEflSXlWXpQVsxaQRerbyeMbzOvbrEbNkNUDX5U35V35UD6V9aBuy/+4Sp6t5XvAMljzQepZbH3K3tWMd7RGzZDVA7+Ub+VH+VX+lM2gbsv/uEqereV7wDJY80HqWWx9yt71jHe0Rs2Q1QPDHmbVLfn/f6qSZ2v5HrAM1nyQehZbn7J3M+MdrVEzZPWisIdZdXPMe15Knq3lewC2idWLxsxxOeY9LyXP1vI9ANtu7ByXY97zUvJsNe/hH/Bm72Q=
+  </data>
+ </layer>
+ <layer name="box2" width="300" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt2ctOAkEQheFe9fs/morjBRDECxcFRHkBzkI33V2tRcYwYf4vOYuqBWF10pUJAQAAAAAAAAAAAAAAAECXXMQQLpUrZRDz+Vpp4qn/JQCEcKMuulXulPuYz0NlRF8B6ICxuuhBmSjTmM+Pyoy+AnqhdF9ZN5d334Yn/c6z8qK8xnyeKwv6CuiF0n1l3Vzefc1fO26p3Up5U95jPq+VDX0F9ELpvrJuLu++xuq4tMe2ykflDfel7Ft+0wHoptJ9Zd1c3n2N1XGN8w33W9/RY8D5KN1X1s3l3ddYHTdyvuHSme+HwPn6ubd2yuf3fVXa7Y/Y11gdN3O+4dKZ74cA2mZ13ML5hktnvh8C+A9WB3necOnM98PTOQBZXkC1
+  </data>
+ </layer>
+ <layer name="hole" width="300" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1VdOw0AYhdGBgE3vvYX9r4+ShHpRntiAf1s6R/qePZI9160BAAAAAAAAAAAAAAAAAADAfy9da6/pLb2nRVqmVfpIn131CQHWvrJH3+nnb5f61jbSZpqlrbTdV59wrWpX7TmMR5c96tNO2k17aT8dpMN0NJK9qtrVqex5lSH33L+D49y3k3SaztJ5ukiX6Spdj+Q+Vu3qVPa8ypB77t/BTd7xbbpL9+khPaanNE/PI/kGqnZ1KnteZcg9H+pZvxmVQ/Y=
+  </data>
+ </layer>
+ <layer name="sandbag" width="300" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztmElPFUEYRd+KXw3IJJPIoMwIJsxsGHWjjBtAgUQGBQWZ51n5A569Vd2pprrfe+l7krOpSnVV8iU3uZ3JCCGEEEIIIYQQQgghhMhlvhVkMuu4gZu4hd8Lsv0qIYT4nx9k0zbu4E/8hbvKKyFEDrJHNv3GfTzAQzxSXgmROkxdy9a/XNd9vecYT/AUz/AcL5RXQqQOU9ey9S/XdV/vucQrvMYbvMU7zzkphMh9TF3L1r9c13295x4f8BH/4F988pyTQqQZX50q7m5m6lq2/uW6HgXTt2zov5YQfvDVqeLuZqauZetfruthmLLV9C0btpxUR0wXhcy3CIvxBZZgacjMe9nvw34cwEEcwmEcCTib9DlXot7jq1PF3c1MXcvWv1zXwzBlq+lbNmw5qY6YLsqYbzlW4EusxKqQmY+yP4bjOIGTOIUf8GPA2aTPuRL1Hl+dKpvdLG6e2+dsOamOmC6qmW8N1uIrrMPXITP/xP5nnMYZnMU5nMeFgLNJn3Ml6j2+OlVS3SwbxJGt+ZTXwg/1zLcBG7EJ3+DbkJkvsr+Ey/gFv+IKruJawNmkz7kS9R5fnSqpbpYN4sjWfMpr4Ydm5tuCrdiG7dihmQvPxJGt+ZTXwg+dzLcL32E39uB7zVwIEcA/V8FMpw==
+  </data>
+ </layer>
+ <layer name="persons" width="300" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1DWvVFEUQOEL5A3uFLhT4E6BOwUP1wJ3EtzlT+BOgTsF7hS4U+BOgTsFbouKySQUkxDuSd5ayZecZjL75pzsKDIzMzMzMzMzMzMzs3/VnIwomot5mI8FWIhFWIwlWIplWI4VWJkR99RmlhVbxe5ZjTVYi3VYjw3YiE3YjC3Yim3Y7r4ysxjawe7ZiV3YjT3Yi33YjwM4iEM4jCM46r4ysxg6xu45jhM4iVM4jTM4i3M4jwu4iEu47L4ysxi6wu65imu4jhu4iVu4jTu4i3u4jwd46L4ysxh6xO55jCd4imd4jhd4iVd4jTd4i3d4774ysxj6wO75iE/4jC/4im/4jh/4+Xs/JaIoG7IjR+LP78dwHotxGJ/4699Y4HmPllqIbyInc+RCbuRBXuRDfhRAQRRCYRRBURRLmn0C54mYhMmBfJOln/doqYX4JoozRwmURCmURhmURTmURwVURCVURpWk2adwnoppmB7IN1n6eY+WWohvoipzVEN11EBN1EJt1EFd1EN9NEBDNEqafQbnmZiF2YF8k6Wf92iphfgmGjNHEzRFMzRHC7REK7RGG7RFO7RHh0BmN7OsVUd2TyY6oTO6oCu6oTt6oCd6oTf6oK/7ysxiqB+7pz8GYCAGYTCGYCiGYThGYCRGYbT7ysz+Y78AJEp2Mg==
+  </data>
+ </layer>
+</map>

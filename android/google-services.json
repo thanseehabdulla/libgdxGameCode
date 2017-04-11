@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "778025180815",
+    "firebase_url": "https://jomon-2one-world-one-peopl-956.firebaseio.com",
+    "project_id": "jomon-2one-world-one-peopl-956",
+    "storage_bucket": "jomon-2one-world-one-peopl-956.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778025180815:android:fa2f5344fd8ece88",
+        "android_client_info": {
+          "package_name": "com.boontaran.games.supermario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778025180815-3op8h00qn0hvdbc8mcos19jv582tf7d4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boontaran.games.supermario",
+            "certificate_hash": "4BBCF646AC4B917570424B479EADB341EF8E2EB2"
+          }
+        },
+        {
+          "client_id": "778025180815-8v70i4ntc6sar7vu1elolgt3l6hhatuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqEXGfRkarJZm0Fsk_-ZjOiMTZdmTXiqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778025180815-8v70i4ntc6sar7vu1elolgt3l6hhatuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

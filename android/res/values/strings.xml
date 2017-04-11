@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JoMon in Arabia</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1618559347306270/8877181743 </string>
+    <string name="interstitial_button_text">Show Interstitial Ad</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-1618559347306270/8877181743 </string>
+</resources>
